@@ -1,0 +1,92 @@
+header{
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    width: min(1440px, 100%);
+    
+}
+
+.icon{
+    border: 1px solid red;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    z-index: 1;
+    left: 55px;
+    background-image: url('../assets/shared/logo.svg');
+}
+
+.app-header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 96px;
+    width: 100%;
+}
+
+.line{
+    position: relative;
+    right: -20px;
+    height: 1px;
+    width: 32.84%;
+    margin-left: 167px;
+    background: var(--font);
+}
+
+
+.links-container{
+    position: relative;
+    z-index: 1;
+    width: 57.63%;
+    height: 100%;
+
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+.links-container:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+    margin: -20px;
+}
+
+
+.ul-container{
+    width: 65.3%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.ul-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100%;
+
+    list-style: none;
+}
+
+.ul-container ul li a{
+    text-transform: uppercase;
+    font-family: var(--secondary);
+    font-size: var(--nav-text);
+    text-decoration: none;
+    letter-spacing: 2.7px;
+}
+
+.ul-container ul li a span{
+    font-weight: bold;
+    letter-spacing: 2.7px;
+}
