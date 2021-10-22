@@ -4,6 +4,7 @@ import Destination from './components/Destination';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import './css/app.css';
+import Crew from './components/Crew';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           </Route>
           <Route path="/destination">
             <Destination/>
+          </Route>
+          <Route path="/crew">
+            <Crew/>
           </Route>
         </Switch>
       </Router>

@@ -65,47 +65,45 @@ function Destination() {
     }
 
     return (
-        <div className="section1-container">
-            <section>
-                <h5><span>01</span> Pick up your destination</h5>
-                <div className="sec1-image">
-                    <img src={content.img} alt="" />
-                </div>
-                <div className="sec1-content">
-                    <div className="sec1-navigation">
-                        <ul className="sec1-links">
-                            <li>
-                                <span onClick={setMoon}>Moon</span>
-                            </li>
-                            <li>
-                                <span onClick={setMars}>Mars</span>
-                            </li>
-                            <li>
-                                <span onClick={setEuropa}>Europa</span>
-                            </li>
-                            <li>
-                                <span onClick={setTitan}>Titan</span>
-                            </li>
-                        </ul>
-                    <div className="sec1-text-container">
-                        <h2>{content.h2}</h2>
-                        <p>{content.h2p}</p>
-                        <div className="sec1-line"></div>
-                        <div className="text-underline">
-                            <div>
-                                <h3>{content.h31}</h3>
-                                <p>{content.h31p}</p>
-                            </div>
-                            <div>
-                                <h3>{content.h32}</h3>
-                                <p>{content.h32p}</p>
-                            </div>
+        <section className="section1-container">
+            <h5><span>01</span> Pick up your destination</h5>
+            <div className="sec1-image">
+                <img src={content.img} alt="" />
+            </div>
+            <div className="sec1-content">
+                <div className="sec1-navigation">
+                    <ul className="sec1-links">
+                        <li>
+                            <span onClick={setMoon}>Moon</span>
+                        </li>
+                        <li>
+                            <span onClick={setMars}>Mars</span>
+                        </li>
+                        <li>
+                            <span onClick={setEuropa}>Europa</span>
+                        </li>
+                        <li>
+                            <span onClick={setTitan}>Titan</span>
+                        </li>
+                    </ul>
+                <div className="sec1-text-container">
+                    <h2>{content.h2}</h2>
+                    <p>{content.h2p}</p>
+                    <div className="sec1-line"></div>
+                    <div className="text-underline">
+                        <div>
+                            <h3>{content.h31}</h3>
+                            <p>{content.h31p}</p>
+                        </div>
+                        <div>
+                            <h3>{content.h32}</h3>
+                            <p>{content.h32p}</p>
                         </div>
                     </div>
-                    </div>
                 </div>
-            </section>
-        </div>
+                </div>
+            </div>
+        </section>
     )
 }
 

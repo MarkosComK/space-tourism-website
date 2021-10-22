@@ -1,0 +1,87 @@
+.section2-container{
+    height: 100vh;
+    width: 100%;
+    background: url(../assets/crew/background-crew-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec2-content-wrapper{
+    display: flex;
+
+    width: 100%;
+}
+
+.sec2-content-wrapper h2{
+    margin: 37px 0 14px;
+    font-family: var(--secondary);
+    font-weight: normal;
+    font-size: var(--heading5);
+    text-transform: uppercase;
+    letter-spacing: 4.72px;
+}
+
+.sec2-content-wrapper h2 span{
+    opacity: 0.25;
+    font-weight: bold;
+    font-family: var(--secondary);
+}
+
+.text-content{
+    position: relative;
+    top: 212px;
+    left: 165px;
+    width: 488px;
+}
+.text-content h3{
+    text-transform: uppercase;
+    font-family: var(--main);
+    font-size: var(--heading4);
+    opacity: 0.5;
+    margin-top: 154px;
+    margin-bottom: 15px;
+}
+.text-content h4{
+    text-transform: uppercase;
+    font-size: var(--heading3);
+    font-weight: normal;
+    margin-bottom: 27px;
+}
+
+.text-content p{
+    width: 444px;
+    font-size: var(--body-text);
+    color: var(--sub-color);
+    font-family: var(--secondary);
+    line-height: 32px;
+    letter-spacing: 1.7px;
+}
+
+.sec1-bullets{
+    display: flex;
+    width: 132px;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.bullet1, .bullet2, .bullet3, .bullet4{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--font);
+    opacity: 0.17;
+}
+
+.bullet1:hover, 
+.bullet2:hover, 
+.bullet3:hover, 
+.bullet4:hover{
+   opacity: 1;
+   cursor: pointer;
+}
+
+.crew-img img{
+    position: relative;
+    top: 168px;
+    left: 245px;
+}
