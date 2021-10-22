@@ -1,0 +1,125 @@
+.section1-container{
+    height: 100vh;
+    width: 100%;
+    background: url(../assets/destination/background-destination-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec1-image{
+    width: 445px;
+    height: 445px;
+    /* background: url(../assets/destination/image-moon.webp); */
+    position: relative;
+    top: 343px;
+    left: 230px;
+}
+
+.section1-container h5{
+    position: relative;
+    top: 212px;
+    left: 166px;
+
+    text-transform: uppercase;
+    letter-spacing: 4.75px;
+    font-weight: normal;
+    font-size: var(--heading5);
+    font-family: var(--secondary);
+}
+
+.section1-container h5 span {
+    font-weight: bold;
+    opacity: 0.25;
+}
+
+.sec1-navigation{
+    position: relative;
+    left: 832px;
+    bottom: 118px;
+    width: 445px;
+    height: 472px;
+}
+
+.sec1-links{
+    display: flex;
+    width: 285px;
+    height: 34px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec1-navigation ul{
+    list-style: none;
+    letter-spacing: 2.7px;
+}
+
+.sec1-navigation ul li{
+    height: 100%;
+}
+.sec1-navigation ul li span{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--secondary);
+    color: var(--sub-color);
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.sec1-navigation ul li span:hover{
+    cursor: pointer;
+    border-bottom: 3px solid var(--font);
+    color: var(--font);
+}
+
+.sec1-text-container h2{
+    margin: 37px 0 14px;
+    font-family: var(--main);
+    font-weight: normal;
+    font-size: var(--heading2);
+    text-transform: uppercase;
+}
+
+.sec1-text-container p{
+    font-family: var(--secondary);
+    color: var(--sub-color);
+    font-size: 1.125rem;
+    line-height: 32px;
+    letter-spacing: 1.5px;
+}
+
+.sec1-line{
+    width: 100%;
+    height: 1px;
+    margin-top: 54px;
+    opacity: 0.25;
+    background: var(--sub-color);
+}
+
+
+.text-underline{
+    margin-top: 28px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.text-underline h3{
+    font-family: var(--secondary);
+    color: var(--sub-color);
+    font-size: var(--subheading2);
+    font-weight: normal;
+    letter-spacing: 2.35px;
+}
+.text-underline p{
+    margin-top: 12px;
+    font-weight: normal;
+    font-family: var(--main);
+    color: var(--font);
+}
+

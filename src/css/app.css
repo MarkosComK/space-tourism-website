@@ -41,4 +41,6 @@
 }
 body{
   background-color: var(--background);
+  overflow-y: hidden;
+  overflow-x: hidden;
 }

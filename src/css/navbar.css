@@ -94,6 +94,11 @@ header{
 }
 
 .ul-container ul li a{
+    height: 100%;
+    padding-top: 38px;
+}
+
+.ul-container ul li a{
     text-transform: uppercase;
     font-family: var(--secondary);
     font-size: var(--nav-text);
