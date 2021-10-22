@@ -6,8 +6,8 @@ header{
     
 }
 
+
 .icon{
-    border: 1px solid red;
     width: 48px;
     height: 48px;
     position: absolute;
@@ -28,6 +28,7 @@ header{
 
 .line{
     position: relative;
+    z-index: 2;
     right: -20px;
     height: 1px;
     width: 32.84%;
@@ -57,8 +58,10 @@ header{
     left: 0;
     right: 0;
     bottom: 0;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.04);
     margin: -20px;
+    backdrop-filter: blur(81px);
+    -webkit-backdrop-filter: blur(81px);
 }
 
 
@@ -76,6 +79,18 @@ header{
     height: 100%;
 
     list-style: none;
+}
+
+.ul-container ul li{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+.ul-container ul li:hover{
+    cursor: pointer;
+    border-bottom: 3px solid var(--font);
 }
 
 .ul-container ul li a{

@@ -17,6 +17,7 @@
   --heading3: 3.5rem;
   --heading4: 2rem;
   --heading5: 1.75rem;
+  --body-text: 1.125rem;
   /*----------*/
   /*Font family's*/
   --main: 'Bellefair';
@@ -37,4 +38,7 @@
 .app{
   max-width: 1440px;
   margin: 0 auto;
+}
+body{
+  background-color: var(--background);
 }
