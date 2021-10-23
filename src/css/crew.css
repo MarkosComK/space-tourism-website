@@ -59,10 +59,13 @@
 }
 
 .sec1-bullets{
+    position: relative;
+    top: 800px;
+    left: -325px;
+
     display: flex;
     width: 132px;
     justify-content: space-between;
-    margin-top: 120px;
 }
 .bullet1, .bullet2, .bullet3, .bullet4{
     width: 15px;

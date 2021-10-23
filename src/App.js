@@ -1,10 +1,11 @@
 import Navbar from './components/Navbar';
 import Main from './components/Main';
 import Destination from './components/Destination';
+import Crew from './components/Crew';
+import Tecnology from './components/Tecnology';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import './css/app.css';
-import Crew from './components/Crew';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/crew">
             <Crew/>
+          </Route>
+          <Route path="/tecnology">
+            <Tecnology/>
           </Route>
         </Switch>
       </Router>
