@@ -7,6 +7,7 @@ import '../css/tecnology.css'
 
 function Tecnology() {
     const vehicle = {
+        color: '',
         img: launchImg,
         h4: 'Launch Vehicle',
         p: "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"
@@ -22,19 +23,27 @@ function Tecnology() {
         p: "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."
     }
 
+  
+
     const [content, setContent] = useState(vehicle)
+
 
     const setVehicle = () => {
         setContent(vehicle)
+
+
     }
 
     const setSpaceport = () => {
         setContent(spaceport)
+
     }
 
     const setCapsule = () => {
         setContent(capsule)
     }
+    // set button color on click
+
 
     return (
         <div>

@@ -9,67 +9,87 @@
 }
 
 .main-container main{
-    position: relative;
-    width: 100%;
-    height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.text-container{
+  position: relative;
+  top: 387px;
+  left: 11.45%;
+  width: 430px;
+  height: 382px;
+}
+.text-container h1{
+  text-transform: uppercase;
+  font-family: var(--main);
+  font-size: var(--heading1);
+  font-weight: normal;
+  font-style: normal;
+  line-height: 172px;
+  margin: 24px 0;
+}
+
+.text-container h5{
+  text-transform: uppercase;
+  font-family: var(--secondary);
+  font-size: var(--heading5);
+  font-weight: normal;
+  font-style: normal;
+  color: var(--sub-color);
+  letter-spacing: 4.725px;
+}
+
+.text-container p{
+  line-height: 32px;
+  font-family: var(--secondary);
+  font-size: var(--body-text);
+  color: var(--sub-color);
+  letter-spacing: 1px;
+}
+
+.explore-button{
+  position: relative;
+  left: 69.4%;
+  bottom: -131px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  background-color: var(--font);
+}
+.explore-button p{
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-family: var(--main);
+  color: var(--background);
+}
+
+.explore-button:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 898px) {
+  .main-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 0 auto;
   }
   .text-container{
-    position: relative;
-    top: 387px;
-    left: 165px;
-    width: 430px;
-    height: 382px;
+    margin-top: 202px;
+    position: static;
+    text-align: center;
   }
-  .text-container h1{
-    text-transform: uppercase;
-    font-family: var(--main);
-    font-size: var(--heading1);
-    font-weight: normal;
-    font-style: normal;
-    line-height: 172px;
-    margin: 24px 0;
-  }
-  
-  .text-container h5{
-    text-transform: uppercase;
-    font-family: var(--secondary);
-    font-size: var(--heading5);
-    font-weight: normal;
-    font-style: normal;
-    color: var(--sub-color);
-    letter-spacing: 4.725px;
-  }
-  
-  .text-container p{
-    line-height: 32px;
-    font-family: var(--secondary);
-    font-size: var(--body-text);
-    color: var(--sub-color);
-    letter-spacing: 1px;
-  }
-  
   .explore-button{
-    position: relative;
-    left: 1000px;
-    bottom: -131px;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    width: 274px;
-    height: 274px;
-    border-radius: 50%;
-    background-color: var(--font);
+    position: static;
+    margin: 0 auto;
+    margin-top: 156px;
   }
-  .explore-button p{
-    text-transform: uppercase;
-    font-size: 2rem;
-    letter-spacing: 2px;
-    font-family: var(--main);
-    color: var(--background);
-  }
-
-  .explore-button:hover{
-      cursor: pointer;
-  }
+}

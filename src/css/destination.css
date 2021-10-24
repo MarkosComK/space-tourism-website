@@ -123,3 +123,28 @@
     color: var(--font);
 }
 
+@media (max-width: 1170px) {
+    header{
+        top: 0;
+    }
+    .ul-container{
+        width: 100%;
+    }
+    .ul-container ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+        height: 100%;
+        width: 100%;
+    
+        list-style: none;
+    }   
+    .line{
+        height: 0;
+        width: 0;
+    }
+    .ul-container span {
+        display: none;
+    }
+}
