@@ -10,7 +10,7 @@ function Crew() {
         img: douglasImg,
         h3: 'Commander',
         h4: 'Douglas Hurley',
-        p: 'Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.'
+        p: 'Douglas Gerald Hurley is an American engineer, former Marine Corps  pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.'
     }
     const mark = {
         img: markImg,
@@ -52,17 +52,19 @@ function Crew() {
     return (
         <section className="section2-container">
             <div className="sec2-content-wrapper">
-                <div className="text-content">
-                    <h2><span>02</span> Meet your crew</h2>
-                    <h3>{content.h3}</h3>
-                    <h4>{content.h4}</h4>
-                    <p>{content.p}</p>
-                </div>
-                <div className="sec1-bullets">
-                    <div className="bullet1" onClick={setDouglas}></div>
-                    <div className="bullet2" onClick={setMark}></div>
-                    <div className="bullet3" onClick={setVictor}></div>
-                    <div className="bullet4" onClick={setAnsari}></div>
+                <div>
+                    <div className="text-content">
+                        <h2><span>02</span> Meet your crew</h2>
+                        <h3>{content.h3}</h3>
+                        <h4>{content.h4}</h4>
+                        <p>{content.p}</p>
+                    </div>
+                    <div className="sec1-bullets">
+                        <div className="bullet1" onClick={setDouglas}></div>
+                        <div className="bullet2" onClick={setMark}></div>
+                        <div className="bullet3" onClick={setVictor}></div>
+                        <div className="bullet4" onClick={setAnsari}></div>
+                    </div>
                 </div>
                 <div className="crew-img">
                     <img src={content.img} alt="" />

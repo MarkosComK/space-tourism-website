@@ -88,3 +88,63 @@
     top: 168px;
     left: 245px;
 }
+
+@media (max-width: 1170px) {
+    .sec2-content-wrapper{
+        flex-direction: column;
+        align-items: center;
+    
+        width: 540px;
+        height: 100vh;
+        margin: 0 auto;
+    }
+    .text-content{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        text-align: center;
+        top: 220px;
+        left: 0;
+        width: 100%;
+        
+    }
+    .text-content h4{
+        font-size: 40px;
+    }
+    .text-content h3{
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+    }
+    .text-content h2{
+        position: relative;
+        top: -80px;
+        left: -265px;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .text-content p{
+        width: auto;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 28px;
+    }
+    .crew-img img{
+        top: 300px;
+        left: 0;
+    }
+    .sec1-bullets{
+        margin: 0 auto;
+        top: 260px;
+        left: 0;
+    
+        width: 88px;
+        height: 10px;
+    }
+    .bullet1, .bullet2, .bullet3, .bullet4{
+        width: 10px;
+        height: 10px;
+
+    }
+}
