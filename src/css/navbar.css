@@ -136,3 +136,63 @@ header{
         display: none;
     }
 }
+
+@media (max-width: 700px){
+    .links-container{
+        top: 451px;
+        right: -70px;
+        height: 100vh;
+        transition: 0.5s ease-in;
+    }
+    .links-container-active{
+        right: -70.6%;
+    }
+    .ul-container ul{
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+    .ul-container ul li{
+        height: 100px;
+        width: 400px;
+        margin-left: 32px;
+    }
+    .ul-container ul li:first-child{
+        margin-top: 118px;
+    }
+    .ul-container ul li:hover{
+        cursor: pointer;
+        border-bottom: transparent;
+    }
+    
+    .ul-container ul li a{
+        height: 100%;
+        width: 200px;
+    }
+    .ul-container span {
+        display: inline;
+    }
+    
+    .svg-hamburguer{
+        width: 24px;
+        height: 21px;
+        background: url('../assets/shared/icon-hamburger.svg');
+
+        position: relative;
+        right: 24px;
+        z-index: 2;
+    }
+    .svg-x{
+        width: 24px;
+        height: 21px;
+        background: url('../assets/shared/icon-close.svg');
+        background-repeat: no-repeat;
+
+        position: relative;
+        right: 22px;
+        z-index: 2;
+    }
+    .svg-hamburguer:hover, .svg-x:hover{
+        cursor: pointer;
+    }
+}
